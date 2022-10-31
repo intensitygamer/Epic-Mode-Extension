@@ -2,10 +2,27 @@
   <head>
     <meta charset="utf-8">
     <title>Popout Page</title>
-  </head>
+
+    <style>
+        body{
+          width: 400px;
+          background: grey;
+
+        }
+
+
+    </style>
+
+</head>
   <body>
     <h1>Play Random Music</h1>
-    <audio src="1.mp3" controls></audio>
+    <select>
+      <option value="one">Track One</option>
+      <option value="two">Track Two</option>
+      <option value="three">Track Three</option>
+    </select>
+    <button class="play">Play!</button>
+    <button class="pause">Stop!</button>
     <script src="popout.js"></script>
   </body>
 </html>
